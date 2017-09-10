@@ -1,0 +1,72 @@
+/*
+ * Application global variables.
+ */
+
+// Ionic Variables and Theming. For more info, please see: http://ionicframework.com/docs/v2/theming/
+
+// Font path is used to include ionicons, roboto, and noto sans fonts
+$font-path: "~ionic-angular/fonts";
+$ionicons-font-path: "~ionicons/dist/fonts";
+
+
+// The app direction is used to include rtl styles in your app. For more info, please see:
+// http://ionicframework.com/docs/theming/rtl-support/
+$app-direction: ltr;
+
+
+@import "~ionic-angular/themes/ionic.globals";
+
+
+$colors: (
+  primary:    #0275d8,
+  secondary:  #32db64,
+  danger:     #f53d3d,
+  light:      #f4f4f4,
+  dark:       #333,
+  white: #fff,
+  gold:  #FFB74D,
+  gray: #888888
+);
+
+// App iOS Variables
+// --------------------------------------------------
+// iOS only Sass variables can go here
+
+$cordova-ios-statusbar-padding:           20px;
+$text-input-ios-show-invalid-highlight:   true;
+
+
+// App Material Design Variables
+// --------------------------------------------------
+// Material Design only Sass variables can go here
+
+$text-input-md-show-valid-highlight:      false;
+
+
+// App Windows Variables
+// --------------------------------------------------
+// Windows only Sass variables can go here
+
+$text-input-wp-show-valid-highlight:      false;
+
+
+// App Theme
+// --------------------------------------------------
+// Ionic apps can have different themes applied, which can then be future customized. This import comes last so that
+// the above variables are used and Ionic's default are overridden.
+
+@import "~ionic-angular/themes/ionic.theme.default";
+
+
+// Ionicons
+// --------------------------------------------------
+// The premium icon font for Ionic. For more info, please see: http://ionicframework.com/docs/v2/ionicons/
+
+@import "~ionicons/dist/scss/ionicons";
+
+
+// Fonts
+// --------------------------------------------------
+
+@import "~ionic-angular/fonts/roboto";
+@import "~ionic-angular/fonts/noto-sans";

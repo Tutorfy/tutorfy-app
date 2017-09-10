@@ -1,0 +1,23 @@
+{
+  "generator-ngx-rocket": {
+    "version": "2.0.0",
+    "props": {
+      "appName": "Tutorfy",
+      "target": [
+        "web",
+        "cordova"
+      ],
+      "mobile": [
+        "ios",
+        "android"
+      ],
+      "webview": [
+        "wkwebview",
+        "crosswalk"
+      ],
+      "ui": "ionic",
+      "auth": true,
+      "projectName": "tutorfy"
+    }
+  }
+}
